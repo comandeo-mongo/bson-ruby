@@ -32,12 +32,18 @@ module BSON
     # The number of bytes constant.
     #
     # @since 4.0.0
+    # @deprecated No longer used internally; retained for backward
+    #   compatibility and slated for removal in a future major version.
     BYTES_LENGTH = 4
+    deprecate_constant :BYTES_LENGTH
 
     # Constant for the int 32 pack directive.
     #
     # @since 2.0.0
+    # @deprecated No longer used internally; retained for backward
+    #   compatibility and slated for removal in a future major version.
     PACK = "l<"
+    deprecate_constant :PACK
 
     # Deserialize an Integer from BSON.
     #
